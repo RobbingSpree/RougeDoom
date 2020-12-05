@@ -9,6 +9,7 @@
     {"id":{"name":"spazer_diagup","path":"sprites/spazer_diagup/spazer_diagup.yy",},"order":1,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"matter_down","path":"sprites/matter_down/matter_down.yy",},"order":2,},
+    {"id":{"name":"cross_hair","path":"sprites/cross_hair/cross_hair.yy",},"order":17,},
     {"id":{"name":"gun_n_ammo","path":"scripts/gun_n_ammo/gun_n_ammo.yy",},"order":0,},
     {"id":{"name":"laser_side","path":"sprites/laser_side/laser_side.yy",},"order":3,},
     {"id":{"name":"bullet_parent","path":"objects/bullet_parent/bullet_parent.yy",},"order":2,},
