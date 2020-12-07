@@ -6,6 +6,7 @@ function gun() constructor{
 	//ammo_type = new ammo(self);
 	tts = 30;
 	reload_delay = 120;
+	bullet_life = irandom_range(20,100);
 	
 	//bullet settings
 	dmg = irandom_range(1,10);
@@ -14,34 +15,37 @@ function gun() constructor{
 		clip_penalty = dmg-5;
 	clip_size -= clip_penalty;*/
 	movement_type = irandom(1)
-		if movement_type == 1
+		if movement_type == 1 {
 			movement_type = "hitscan";
-		else
+			bullet_life = floor(bullet_life/10);
+		} else {
 			movement_type = "projectile";
+		}
 		
 	//generate name
 	name = string(dmg*15) + "Calibre Mess Maker";
-	parent = noone;
+	_parent = noone;
 	
 	static shoot = function () {
-		if parent == noone
+		if _parent == noone
 			return false;
 		
 		if movement_type == "hitscan"
-			var bull = instance_create_layer(parent.x,parent.y,"Instances",hitscan_bullet);
+			var bull = instance_create_layer(_parent.x,_parent.y,"Instances",hitscan_bullet);
 		else
-			var bull = instance_create_layer(parent.x,parent.y,"Instances",proj_bullet);
+			var bull = instance_create_layer(_parent.x,_parent.y,"Instances",proj_bullet);
 		bull.dmg = 5;
 		bull.allied = true;
-		if parent != player
+		bull.ttl = bullet_life;
+		if _parent != player
 			bull.allied = false;
 		//hurts_all = false;//not changed for now
-		bull.dir = parent.dir; 
+		bull.dir = _parent.crosshair_dir; 
 		//spd = 3; //not changed for now
 	}
 	
 	static toString = function () {
-		return name +"\n"+ string(parent) +"\n" + "Clip Size: " + string(clip_size) +"\n" + "Damage: " + string(dmg);
+		return name +"\n" + "Clip Size: " + string(clip_size) +"\n" + "Damage: " + string(dmg) +"\n" + "Ammo Type: " + movement_type;
 	}
 }
 
