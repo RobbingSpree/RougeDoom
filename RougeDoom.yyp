@@ -63,6 +63,7 @@
     {"id":{"name":"shot_up","path":"sprites/shot_up/shot_up.yy",},"order":4,},
     {"id":{"name":"enemy_parent","path":"objects/enemy_parent/enemy_parent.yy",},"order":4,},
     {"id":{"name":"_0x72_DungeonTilesetII_v1_362","path":"sprites/_0x72_DungeonTilesetII_v1_362/_0x72_DungeonTilesetII_v1_362.yy",},"order":16,},
+    {"id":{"name":"shot_1","path":"sprites/shot_1/shot_1.yy",},"order":0,},
     {"id":{"name":"shot_diagdown","path":"sprites/shot_diagdown/shot_diagdown.yy",},"order":0,},
     {"id":{"name":"laser_diagup","path":"sprites/laser_diagup/laser_diagup.yy",},"order":1,},
     {"id":{"name":"flamethrower_diagdown","path":"sprites/flamethrower_diagdown/flamethrower_diagdown.yy",},"order":0,},
@@ -118,6 +119,7 @@
     {"folderPath":"folders/Sprites/guns/flamthrower.yy","order":8,"resourceVersion":"1.0","name":"flamthrower","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/guns/laser.yy","order":9,"resourceVersion":"1.0","name":"laser","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemies.yy","order":12,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/bullets.yy","order":18,"resourceVersion":"1.0","name":"bullets","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
