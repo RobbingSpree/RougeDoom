@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cc382e65-3e8f-4d96-b9a9-695b1802abb4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "etc",
+    "path": "folders/Sprites/etc.yy",
   },
   "resourceVersion": "1.0",
   "name": "_0x72_DungeonTilesetII_v1_362",

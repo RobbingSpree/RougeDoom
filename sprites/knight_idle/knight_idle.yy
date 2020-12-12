@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c3337a26-da9d-493b-a59c-562e46fc1982","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "etc",
+    "path": "folders/Sprites/etc.yy",
   },
   "resourceVersion": "1.0",
   "name": "knight_idle",

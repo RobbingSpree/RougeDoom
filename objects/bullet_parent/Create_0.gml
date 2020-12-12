@@ -6,3 +6,7 @@ hurts_all = false; //logic check for enemey fired bullets that hurt other enemie
 dir = 0; //direction shot in
 spd = 3; //speed bullet travels
 ttl = 20; //frames the bullet hangs around for before self destructing
+hit = false; //flag for detecting collision
+
+explode = splode_parent;
+epl_spr = f_splode_1;

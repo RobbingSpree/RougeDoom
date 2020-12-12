@@ -11,6 +11,9 @@ function gun() constructor{
 	//bullet settings
 	dmg = irandom_range(1,10);
 	spd = irandom_range(8,25);
+	//bullet explosion type
+	explode = splode_parent;
+	epl_spr = f_splode_1;
 	/*clip_penalty = 0;
 	if dmg > 5
 		clip_penalty = dmg-5;
@@ -32,7 +35,7 @@ function gun() constructor{
 			return false;
 		
 		if movement_type == "hitscan" {
-			var bull = instance_create_layer(_parent.x,_parent.y,"Instances",hitscan_bullet);
+			var bull = instance_create_layer(_parent.x,_parent.y,"bullets",hitscan_bullet);
 			bull.start_x = _parent.x;
 			bull.start_y = _parent.y;
 			bull.cur_x = bull.start_x;
@@ -40,7 +43,7 @@ function gun() constructor{
 			bull.fade = trail_fade;
 			bull.dmg = max(dmg-5,1);
 		} else {
-			var bull = instance_create_layer(_parent.x,_parent.y,"Instances",proj_bullet);
+			var bull = instance_create_layer(_parent.x,_parent.y,"bullets",proj_bullet);
 			bull.ttl = bullet_life;
 			bull.dmg = dmg;
 			bull.spd = spd;

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b44d1ea4-fc24-4c29-91b8-e8d68909e9be","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "etc",
+    "path": "folders/Sprites/etc.yy",
   },
   "resourceVersion": "1.0",
   "name": "bullet_spr",
