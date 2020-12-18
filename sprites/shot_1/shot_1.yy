@@ -97,7 +97,7 @@
   ],
   "parent": {
     "name": "bullets",
-    "path": "folders/Sprites/bullets.yy",
+    "path": "folders/top_down Doom bits/Sprites/bullets.yy",
   },
   "resourceVersion": "1.0",
   "name": "shot_1",

@@ -89,7 +89,7 @@
   ],
   "parent": {
     "name": "enemies",
-    "path": "folders/Sprites/enemies.yy",
+    "path": "folders/top_down Doom bits/Sprites/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "pumpkin_run",

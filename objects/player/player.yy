@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy",
+    "path": "folders/top_down Doom bits/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "player",

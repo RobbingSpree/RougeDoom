@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "explosions",
-    "path": "folders/Objects/explosions.yy",
+    "path": "folders/top_down Doom bits/Objects/explosions.yy",
   },
   "resourceVersion": "1.0",
   "name": "dir_splode",

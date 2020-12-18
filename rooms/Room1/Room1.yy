@@ -60,7 +60,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "path": "folders/top_down Doom bits/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room1",

@@ -101,7 +101,7 @@
   ],
   "parent": {
     "name": "floating splodes",
-    "path": "folders/Sprites/splodes/floating splodes.yy",
+    "path": "folders/top_down Doom bits/Sprites/splodes/floating splodes.yy",
   },
   "resourceVersion": "1.0",
   "name": "f_splode_1",

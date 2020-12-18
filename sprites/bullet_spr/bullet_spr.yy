@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "etc",
-    "path": "folders/Sprites/etc.yy",
+    "path": "folders/top_down Doom bits/Sprites/etc.yy",
   },
   "resourceVersion": "1.0",
   "name": "bullet_spr",

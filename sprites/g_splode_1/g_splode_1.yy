@@ -101,7 +101,7 @@
   ],
   "parent": {
     "name": "grounded splodes",
-    "path": "folders/Sprites/splodes/grounded splodes.yy",
+    "path": "folders/top_down Doom bits/Sprites/splodes/grounded splodes.yy",
   },
   "resourceVersion": "1.0",
   "name": "g_splode_1",

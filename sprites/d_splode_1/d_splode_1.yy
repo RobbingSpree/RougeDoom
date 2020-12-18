@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "directional splodes",
-    "path": "folders/Sprites/splodes/directional splodes.yy",
+    "path": "folders/top_down Doom bits/Sprites/splodes/directional splodes.yy",
   },
   "resourceVersion": "1.0",
   "name": "d_splode_1",
