@@ -1,0 +1,1 @@
+make_plane(x, y, 0, x+32, y, 0, x, y+32, -32, x+32, y+32, -32, sprWall, 1, choose(true, false));
