@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "skeleton_idle",
-    "path": "sprites/skeleton_idle/skeleton_idle.yy",
+    "name": "demon_idle",
+    "path": "sprites/demon_idle/demon_idle.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "parEntity",
+    "path": "objects/parEntity/parEntity.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

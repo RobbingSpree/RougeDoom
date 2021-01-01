@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "path": "folders/FPS Doom bits/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprDith",

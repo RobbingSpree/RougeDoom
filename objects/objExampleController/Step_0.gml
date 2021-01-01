@@ -64,6 +64,30 @@ if window_has_focus() {
 #endregion
 
 
+#region guns and shooting
+
+//debug
+
+//shoot guns
+if l_gun != noone && mouse_check_button(mb_left) && l_cool <= 0 {
+	l_gun.shoot(dir,x,y);
+	l_cool = l_gun.tts;
+	l_gun._parent = self;
+}
+if r_gun != noone && mouse_check_button(mb_right) && r_cool <= 0 {
+	r_gun.shoot(dir,x+lengthdir_x(sprite_width*2,dir-180),y+lengthdir_y(sprite_height*2,dir-180));
+	r_cool = r_gun.tts;
+	r_gun._parent = self;
+}
+
+if l_cool > 0
+	l_cool--;
+if r_cool > 0
+	r_cool--;
+
+
+#endregion
+
 camera_update(lerp(x, objCamera.x, 0.2), lerp(y, objCamera.y, 0.2), -16, dir, yaw, 60 - keyboard_check(vk_space)*50);
 set_fog($6B513B, 20, 180);
 set_snapping(1, 16, false);

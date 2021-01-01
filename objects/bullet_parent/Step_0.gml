@@ -10,15 +10,41 @@ if hit == false {
 		temp_x += lengthdir_x(cycle,dir);
 		temp_y += lengthdir_y(cycle,dir);
 		
-		var target = instance_position(temp_x,temp_y,enemy_parent)
-		if target != noone{
+		/*
+		var target = instance_position(temp_x,temp_y,parEntity)
+		if target == shooter
+			break;
+		
+		if target != noone && (target == enemy_parent || target == objWall) {
 			hit = true;
 			//deal dmg to target
 			target.hp -= dmg;
 			x = temp_x;
 			y = temp_y;
 			break;
+		} 
+		*/
+		
+		if wall_meeting(temp_x,temp_y)
+		{
+			hit = true;
+			x = temp_x;
+			y = temp_y;
+			break;
+		} else {
+			var target = instance_position(temp_x,temp_y,parEntity);
+			if target == enemy_parent {
+				hit = true;
+				//deal dmg to target
+				target.hp -= dmg;
+				x = temp_x;
+				y = temp_y;
+				break;
+			}
 		}
+		
+		
+		
 	}
 	x+= lengthdir_x(spd,dir);
 	y+= lengthdir_y(spd,dir);
@@ -26,7 +52,7 @@ if hit == false {
 } 
 
 if hit == true {
-	
+	ttl=0;
 }
 
 

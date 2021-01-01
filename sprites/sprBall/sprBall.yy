@@ -17,8 +17,8 @@
   "width": 16,
   "height": 16,
   "textureGroupId": {
-    "name": "",
-    "path": "",
+    "name": "Default",
+    "path": "texturegroups/Default",
   },
   "swatchColours": null,
   "gridX": 4,
@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Example",
-    "path": "folders/Sprites/Example.yy",
+    "path": "folders/FPS Doom bits/Sprites/Example.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBall",

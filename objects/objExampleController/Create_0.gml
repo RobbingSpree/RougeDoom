@@ -1,7 +1,16 @@
 dir = 90;
 yaw = 0;
+//image_alpha = 0;
+visible = false;
 
 tick = 0;
+
+//game features
+hp = 50;
+l_gun = noone;
+r_gun = noone;
+l_cool = 0;
+r_cool = 0;
 
 // Mouse sensitivity
 sensitivity = 0.125;
@@ -9,6 +18,16 @@ sensitivity = 0.125;
 spd = 2;
 
 
+//debug
+l_gun = new gun();
+l_gun._parent = self;
+l_gun.movement_type = "projectile";
+
+r_gun = new gun();
+r_gun._parent = self;
+r_gun.movement_type = "hitscan";
+shoot_dir = 0;
+shoot_height =16;
 
 /*
 

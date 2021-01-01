@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Parents",
-    "path": "folders/Objects/Parents.yy",
+    "path": "folders/FPS Doom bits/Objects/Parents.yy",
   },
   "resourceVersion": "1.0",
   "name": "parEntity",

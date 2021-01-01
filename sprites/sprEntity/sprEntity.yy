@@ -17,8 +17,8 @@
   "width": 32,
   "height": 32,
   "textureGroupId": {
-    "name": "",
-    "path": "",
+    "name": "Default",
+    "path": "texturegroups/Default",
   },
   "swatchColours": null,
   "gridX": 0,
@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Example",
-    "path": "folders/Sprites/Example.yy",
+    "path": "folders/FPS Doom bits/Sprites/Example.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprEntity",
