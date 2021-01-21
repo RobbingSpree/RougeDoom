@@ -10,6 +10,7 @@ dir = 0; //direction shot in
 spd = 3; //speed bullet travels
 ttl = 20; //frames the bullet hangs around for before self destructing
 hit = false; //flag for detecting collision
+second_frame_check = false; //flag for doing a second collision check to porevent hit detection from behind
 shooter = noone;
 
 explode = splode_parent;

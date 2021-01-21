@@ -37,6 +37,9 @@ if window_has_focus() {
 	    y = ytarg;
 	} else {
 		
+		if door_meeting(xtarg, ytarg)
+			room_goto(rmroom_gen);
+		
 	    var sweep_amt = 4;
 		var _break = false;
     
