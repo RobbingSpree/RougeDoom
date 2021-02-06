@@ -7,8 +7,8 @@ tick = 0;
 
 //game features
 hp = 50;
-l_gun = noone;
-r_gun = noone;
+l_gun = global.leftgun;
+r_gun = global.rightgun;
 l_cool = 0;
 r_cool = 0;
 

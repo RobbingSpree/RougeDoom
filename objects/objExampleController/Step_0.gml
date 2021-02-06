@@ -37,8 +37,11 @@ if window_has_focus() {
 	    y = ytarg;
 	} else {
 		
-		if door_meeting(xtarg, ytarg)
+		if door_meeting(xtarg, ytarg) {
+			global.leftgun = l_gun;
+			global.rightgun = r_gun;
 			room_goto(rmroom_gen);
+		}
 		
 	    var sweep_amt = 4;
 		var _break = false;
