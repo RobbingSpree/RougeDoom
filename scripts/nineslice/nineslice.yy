@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "top_down Doom bits",
-    "path": "folders/top_down Doom bits.yy",
+    "name": "New Gun Choice",
+    "path": "folders/New Gun Choice.yy",
   },
   "resourceVersion": "1.0",
-  "name": "gun_n_ammo",
+  "name": "nineslice",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -28,7 +28,7 @@ function gun() constructor{
 		}
 		
 	//generate name
-	name = string(dmg*15) + "Calibre Mess Maker";
+	_name = string(dmg*15) + "Calibre Mess Maker";
 	_parent = noone;
 	
 	static shoot = function (_dir,_x,_y) {
@@ -72,7 +72,7 @@ function gun() constructor{
 	}
 	
 	static toString = function () {
-		return name +"\n" + "Clip Size: " + string(clip_size) +"\n" + "Damage: " + string(dmg) +"\n" + "Ammo Type: " + movement_type;
+		return _name +"\n" + "Clip Size: " + string(clip_size) +"\n" + "Damage: " + string(dmg) +"\n" + "Ammo Type: " + movement_type;
 	}
 	
 	static pick_spr = function (index) {

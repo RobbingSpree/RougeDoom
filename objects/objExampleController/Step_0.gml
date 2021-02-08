@@ -40,7 +40,7 @@ if window_has_focus() {
 		if door_meeting(xtarg, ytarg) {
 			global.leftgun = l_gun;
 			global.rightgun = r_gun;
-			room_goto(rmroom_gen);
+			room_goto(new_gun_room);
 		}
 		
 	    var sweep_amt = 4;
