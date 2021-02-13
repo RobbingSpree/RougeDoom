@@ -19,11 +19,11 @@ spd = 2;
 
 
 //debug
-l_gun = new gun();
+//l_gun = new gun();
 l_gun._parent = self;
 l_gun.movement_type = "projectile";
 
-r_gun = new gun();
+//r_gun = new gun();
 r_gun._parent = self;
 r_gun.movement_type = "hitscan";
 shoot_dir = 0;

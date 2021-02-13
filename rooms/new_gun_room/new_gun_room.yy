@@ -15,9 +15,9 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"l_gun_preview","path":"objects/l_gun_preview/l_gun_preview.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.16666675,"scaleY":2.33333325,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":40.0,"y":80.0,"resourceVersion":"1.0","name":"inst_513BB37","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"l_gun_preview","path":"objects/l_gun_preview/l_gun_preview.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.16666675,"scaleY":2.33333325,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":300.0,"y":80.0,"resourceVersion":"1.0","name":"inst_5E4979BA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"confirm_btn","path":"objects/confirm_btn/confirm_btn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.2,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":230.0,"y":200.0,"resourceVersion":"1.0","name":"inst_2B93D84","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"choose_title","path":"objects/choose_title/choose_title.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":0.8333333,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":180.0,"y":20.0,"resourceVersion":"1.0","name":"inst_764A0975","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"r_gun_preview","path":"objects/r_gun_preview/r_gun_preview.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.166,"scaleY":2.33333325,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":300.0,"y":80.0,"resourceVersion":"1.0","name":"inst_5771EB32","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -26,7 +26,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_513BB37","path":"rooms/new_gun_room/new_gun_room.yy",},
-    {"name":"inst_5E4979BA","path":"rooms/new_gun_room/new_gun_room.yy",},
+    {"name":"inst_5771EB32","path":"rooms/new_gun_room/new_gun_room.yy",},
     {"name":"inst_2B93D84","path":"rooms/new_gun_room/new_gun_room.yy",},
     {"name":"inst_764A0975","path":"rooms/new_gun_room/new_gun_room.yy",},
   ],

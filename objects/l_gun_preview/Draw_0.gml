@@ -15,7 +15,7 @@ nineSlice(left,top,right,bottom,sprite, tint, opacity)
 
 draw_set_font(tiny_font);
 draw_text(x+2,y+2,contents);
-draw_sprite(contents._pic,ani,x+20,y+2);
+draw_sprite(contents.pick_spr(contents._pic),ani,x+30,y+120);
 draw_set_font(defont);
 
 //draw contents

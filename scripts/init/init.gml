@@ -28,8 +28,8 @@ function init(){
 	// Create the global and persistent controller object
 	instance_create_depth(0, 0, 0, game);
 	
-	global.leftgun = noone;
-	global.rightgun = noone;
+	global.leftgun = new gun();
+	global.rightgun = new gun();
 	
 	room_goto_next();
 	
