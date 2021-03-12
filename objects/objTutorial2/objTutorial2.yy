@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Example",
-    "path": "folders/FPS Doom bits/Objects/Example.yy",
+    "name": "tutorial objects",
+    "path": "folders/FPS Doom bits/Objects/Example/tutorial objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "objTutorial2",

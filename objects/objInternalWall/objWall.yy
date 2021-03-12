@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objTutorial4","path":"objects/objTutorial4/objTutorial4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objWall","path":"objects/objWall/objWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tutorial objects",
-    "path": "folders/FPS Doom bits/Objects/Example/tutorial objects.yy",
+    "name": "Example",
+    "path": "folders/FPS Doom bits/Objects/Example.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objTutorial4",
+  "name": "objWall",
   "tags": [],
   "resourceType": "GMObject",
 }

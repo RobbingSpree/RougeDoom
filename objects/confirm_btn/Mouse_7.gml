@@ -8,5 +8,5 @@ if !hidden && flag != "neither" {
 	if flag == "right" {
 		global.rightgun = new gun();
 	}
-	room_goto(rmroom_gen);
+	room_goto(pick_a_room_layout());
 }

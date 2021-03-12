@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sprEditorWall",
-    "path": "sprites/sprEditorWall/sprEditorWall.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "parWall",
-    "path": "objects/parWall/parWall.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objTitle","path":"objects/objTitle/objTitle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"sub_room_gen","path":"objects/sub_room_gen/sub_room_gen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "tutorial objects",
-    "path": "folders/FPS Doom bits/Objects/Example/tutorial objects.yy",
+    "name": "Objects",
+    "path": "folders/top_down Doom bits/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objTitle",
+  "name": "sub_room_gen",
   "tags": [],
   "resourceType": "GMObject",
 }

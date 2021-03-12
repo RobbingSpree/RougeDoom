@@ -14,9 +14,11 @@ r_cool = 0;
 
 // Mouse sensitivity
 sensitivity = 0.125;
-
 spd = 2;
 
+//room details
+door_x_loc = -1;
+door_y_loc = -1;
 
 //debug
 //l_gun = new gun();
